@@ -426,6 +426,13 @@ img {
   margin-right: 120px;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+}
+
 .footer-icons {
   display: flex;
   gap: 16px;
@@ -462,14 +469,7 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-wrapper {
+.footer .container {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-
-.footer-social {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
 }

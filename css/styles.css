@@ -423,6 +423,8 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-logo-text {
   margin-right: 120px;
 }
 
@@ -457,7 +459,7 @@ img {
 
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-media {
@@ -471,5 +473,5 @@ img {
 
 .footer .container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
